@@ -40,11 +40,9 @@
   
     <tr> 
       <td width="70%" style="vertical-align: top">
-        <p align="left" class="TitleColor"> <span class="style1"><strong>Who We Are</strong></span> : Carnegie Financial Services (CFS) offers premier online banking services, known as eBanking or electronic banking.</p> 
+      <div id = "whoweare"></div>
         <hr> 
-                <p align="left"><span class="style1"><strong>eBanking</strong></span> : Carnegie Financial Services eBanking has eChecking, eSavings, eCDs, eLoans, and eMortgages. 
-                You can open electronic bank accounts online, and manage electronic bank accounts online. 
-                We provide free bank account for eBanking services.</p>
+        <div id ="ebanking"></div>
         <div align="left">
           <ul>
             <li><a href="checking-service.html"><strong>eChecking: Online Checking</strong></a>
@@ -79,5 +77,10 @@
     </tr>
   
 </table>
+<script>
+document.getElementById("ebanking").innerHTML = " <p align=\"left\"><span class=\"style1\"><strong>eBanking</strong></span> : Carnegie Financial Services eBanking has eChecking, eSavings, eCDs, eLoans, and eMortgages. You can open electronic bank accounts online, and manage electronic bank accounts online. We provide free bank account for eBanking services.";
+document.getElementById("whoweare").innerHTML ="<p align=\"left\" class=\"TitleColor\"> <span class=\"style1\"><strong>Who We Are</strong></span> : Carnegie Financial Services (CFS) offers premier online banking services, known as eBanking or electronic banking.</p>"
+
+</script>
 </body>
 </html>
